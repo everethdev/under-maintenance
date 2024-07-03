@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "EverETH Dashboard",
   description: "Explore a full range of dApps and protocols.",
+  icons: {
+    icon: '/icon.png', // /public path
+  },
 };
 
 export default function RootLayout({
