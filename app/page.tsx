@@ -44,6 +44,23 @@ export default function Home() {
           </p>
         </a>
 
+        <a
+          href="https://dividends.evereth.net/"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className="mb-3 text-2xl font-semibold">
+            EETH Dividends{" "}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              <img src="/EETH.png" alt="uniflash" />
+            </span>
+          </h2>
+          <p className="flex-col items-center text-sm opacity-50">
+          Consistent Monthly Dividend Payouts for the EETH token holders Powered by the EverETH products revenue.
+          </p>
+        </a>
+
       </div>
     </main>
   );

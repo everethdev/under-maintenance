@@ -10,9 +10,8 @@ export function CardDemo() {
       <CardSkeletonContainer>
         <Skeleton />
       </CardSkeletonContainer>
-      <CardTitle>EETH Dividends (Offline)</CardTitle>
       <CardDescription>
-        Some features are being upgraded and currently running on testnet. We will be back soon. In the meantime you can explore our other products down bellow.
+        Status: Online
       </CardDescription>
     </Card>
   );
